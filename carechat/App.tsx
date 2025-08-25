@@ -9,4 +9,4 @@ export default function App() {
       <RootNav />
     </SafeAreaView>
   );
-}npx expo start
+}
