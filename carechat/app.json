@@ -1,14 +1,15 @@
 {
   "expo": {
+    "name": "carechat",
+    "slug": "carechat",
+    "plugins": ["expo-location"],
     "ios": {
+      "bundleIdentifier": "com.anonymous.carechat",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "This app uses your location to show nearby services.",
-        "NSLocationAlwaysUsageDescription": "This app requires access to your location even when running in the background."
-      },
-      "bundleIdentifier": "com.anonymous.carechat"
+        "NSAppTransportSecurity": { "NSAllowsArbitraryLoads": true }
+      }
     },
-    "android": {
-      "package": "com.anonymous.carechat"
-    }
+    "android": { "package": "com.anonymous.carechat" }
   }
 }
